@@ -1,0 +1,53 @@
+# AgriDialectAgent Dependencies
+# Agricultural Dialect Intelligent Semantic Conversion System
+
+# -------------------- Web Framework --------------------
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+aiofiles==24.1.0
+
+# -------------------- AI Agent Framework --------------------
+langgraph>=0.2.0
+langgraph-checkpoint>=2.0.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# -------------------- Model Inference --------------------
+modelscope>=1.20.0
+torch>=2.0.0
+
+# -------------------- Vector Database --------------------
+faiss-cpu>=1.8.0
+
+# -------------------- BM25 Retrieval --------------------
+rank-bm25>=0.2.2
+
+# -------------------- Database (MySQL) --------------------
+sqlalchemy>=2.0.0
+aiomysql>=0.2.0
+pymysql>=1.1.0
+
+# -------------------- Cache --------------------
+redis>=5.0.0
+hiredis>=2.3.0
+
+# -------------------- Frontend --------------------
+streamlit>=1.38.0
+
+# -------------------- Config Management --------------------
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# -------------------- Async HTTP --------------------
+httpx>=0.27.0
+
+# -------------------- Tokenizer --------------------
+jieba>=0.42.1
+
+# -------------------- Utils --------------------
+numpy>=1.24.0
+pandas>=2.0.0

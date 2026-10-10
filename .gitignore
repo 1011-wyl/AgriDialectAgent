@@ -1,0 +1,47 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Local project notes
+RESUME.md
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime data
+logs/
+*.log
+data/uploads/
+
+# Generated retrieval indexes
+vector_db/
+data/vector_db/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
